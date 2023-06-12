@@ -12,8 +12,6 @@ then
 
     echo "DB did run."
 fi
-# Удаляем все старые данные
-python manage.py flush --no-input
 # Выполняем миграции
 python manage.py migrate
 
